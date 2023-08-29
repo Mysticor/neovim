@@ -57,12 +57,6 @@ return {
         },
       },
       mapping = {
-        while true do
-          line = f:read()
-          if line == nil then break end
-
-          -- code
-        end
         -- enter key only for line warp and not fot select the candidate, but tab key will.
         ["<CR>"] = cmp.config.disable,
 
